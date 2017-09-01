@@ -46,7 +46,7 @@ const App = () => {
 
 const gerarNovaFrase = () => {
     var numeroAleatorio = Math.random();
-    numeroAleatorio = Math.round(numeroAleatorio * 6)
+    numeroAleatorio = Math.floor(numeroAleatorio * 6)
 
     //frases
     var frases = Array();
